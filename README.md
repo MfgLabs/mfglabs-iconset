@@ -37,7 +37,7 @@ Create bevel and emboss is easy by using custom sub class
 2. customise your css directly in mfglabs_iconset.css
 
 
-`.icon2x { font-size: 2em; }
+`.icon2x { font-size: 2em; }`
 
-.icon3x { font-size: 3em; }`
+`.icon3x { font-size: 3em; }`
                 
