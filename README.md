@@ -16,7 +16,7 @@ Start by downloading the project on this url.
 
 `<link rel="stylesheet" href="css/mfglabs_iconset.css">`
         
-4. Drop the markup `<i class="icon-name"></i>` anywhere
+###Drop the markup `<i class="icon-name"></i>` anywhere
 
 
 `<i class="icon-paperplane"></i>`
@@ -29,12 +29,12 @@ Size subclass
 Create bevel and emboss is easy by using custom sub class
 
   
-1. add the subclass icon2x oir icon3x
+###Add the subclass icon2x oir icon3x
 
 
 `< class="icon-cloud icon3x" aria-hidden="true"></i>`
         
-2. customise your css directly in mfglabs_iconset.css
+###Customise your css directly in mfglabs_iconset.css
 
 
 `.icon2x { font-size: 2em; }`
