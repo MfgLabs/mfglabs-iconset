@@ -9,7 +9,13 @@
         <title>MFG Labs icon sets</title>
         <meta name="description" content="An icon webfont you can easely embed anywhere on your website and web application">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-
+				
+				<meta property='og:title' content='MFG Labs icon sets'/>
+				<meta property='og:description' content='An icon webfont you can easely embed anywhere on your website and web application'/>
+				<meta property='og:url' content='http://mfglabs.github.com/mfglabs-iconset/'/>
+				<meta property='og:site_name' content='MFG Labs icon sets'/>
+				<meta property='og:type' content='website'/>
+				<meta property='og:image' content='http://mfglabs.github.com/mfglabs-iconset/img/mfg_logo_r.jpg'/>
 
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/mfglabs_iconset.css">
@@ -81,16 +87,16 @@
 <!--Pattern HTML-->
   <section id="listpattern" class="listpattern">
   	
-  	<ul class="list img-list">
+  	<ul id="listIcon" class="list img-list">
   	<?php
-  	$json = json_decode(file_get_contents( dirname(__FILE__) . '/font.json'));
-  	$nb = count($json->icons);
-  	$html = '';
-  	for ($i = 0; $i < $nb; $i++) {
-  		$html .= '<li><div class="li-icon"><i class="'.$json->icons[$i].' icon2x"></i></div>';
-  		$html .= '<div class="li-text"><p class="li-sub">'.$json->icons[$i].'</p></div></li>';
-  	}
-  	echo $html;
+  	//$json = json_decode(file_get_contents( dirname(__FILE__) . '/font.json'));
+  	//$nb = count($json->icons);
+  	//$html = '';
+  	//for ($i = 0; $i < $nb; $i++) {
+  		//$html .= '<li><div class="li-icon"><i class="'.$json->icons[$i].' icon2x"></i></div>';
+  		//$html .= '<div class="li-text"><p class="li-sub">'.$json->icons[$i].'</p></div></li>';
+  	//}
+  	//echo $html;
   	?>
   	</ul>
 
@@ -298,9 +304,19 @@
         <script src="js/highlight.pack.js"></script>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-        <script>$(document).ready(function() {
-        $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
-        });</script>
+        <script>
+        	$(document).ready(function() {
+        		$('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+        		
+        		$.getJSON('font.json', function(data) {
+        		  var items = [];
+        		  $.each(data.icons, function(key, val) {
+        		    items.push('<li><div class="li-icon"><i class="'+val+' icon2x"></i></div><div class="li-text"><p class="li-sub">'+val+'</p></div></li>');
+        		  });
+        		  $('#listIcon').html(items.join(''));
+        		});
+        	});
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
