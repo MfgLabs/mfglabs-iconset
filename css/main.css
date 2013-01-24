@@ -10,7 +10,12 @@ p{
     font-size: 0.8em;
     line-height: 20px;
 }
-
+h1 {
+	font-size: 1.2em;
+	color: #2f2f2f;
+	line-height: 1.4em;
+	clear: both;
+}
    
 header{
     text-align: center;
