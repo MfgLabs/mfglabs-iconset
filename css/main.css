@@ -330,6 +330,8 @@ header i{ color: #ffffff; }
     font-size: 1em;
     line-height: 1.5em;
     max-width: 600px;
+    margin-top: -18px;
+    margin-left: 60px;
 }
 
 pre {
