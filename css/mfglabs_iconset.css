@@ -29,22 +29,19 @@
     font-style: normal;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
-font-family: 'mfg_labs_iconsetregular';
-font-size: 1em;
-}
-
-.icon2x { font-size: 2em; }
-.icon3x { font-size: 3em; }
-
-i {
+i, .icon {
   font-family: 'mfg_labs_iconsetregular';
   font-style: normal;
   speak: none;
   font-weight: normal;
+  font-size: 1em;
   -webkit-font-smoothing: antialiased;
 }
+
+
+.icon2x { font-size: 2em; }
+.icon3x { font-size: 3em; }
+
 
 
 /* style exemples */
