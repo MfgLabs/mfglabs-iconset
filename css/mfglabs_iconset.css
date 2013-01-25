@@ -21,11 +21,11 @@
     */
 @font-face {
     font-family: 'mfg_labs_iconsetregular';
-    src: url('font/mfglabsiconset-webfont.eot');
-    src: url('font/mfglabsiconset-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/mfglabsiconset-webfont.woff') format('woff'),
-         url('font/mfglabsiconset-webfont.ttf') format('truetype'),
-         url('font/mfglabsiconset-webfont.svg#mfg_labs_iconsetregular') format('svg');
+    src: url('https://github.com/MfgLabs/mfglabs-iconset/blob/master/css/font/mfglabsiconset-webfont.eot?raw=true');
+    src: url('https://github.com/MfgLabs/mfglabs-iconset/blob/master/css/font/mfglabsiconset-webfont.eot?raw=true?#iefix') format('embedded-opentype'),
+         url('https://github.com/MfgLabs/mfglabs-iconset/blob/master/css/font/mfglabsiconset-webfont.woff?raw=true') format('woff'),
+         url('https://github.com/MfgLabs/mfglabs-iconset/blob/master/css/font/mfglabsiconset-webfont.ttf?raw=true') format('truetype'),
+         url('https://raw.github.com/MfgLabs/mfglabs-iconset/master/css/font/mfglabsiconset-webfont-webfont.svg#mfg_labs_iconsetregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
