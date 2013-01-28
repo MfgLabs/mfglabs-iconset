@@ -16,8 +16,6 @@
     -------------------------------------------------------
     Email: martin.charpentier@mfglabs.com
     Twitter: http://twitter.com/mfg_labs
-    
-
     */
 @font-face {
     font-family: 'mfg_labs_iconsetregular';
@@ -39,10 +37,8 @@ i, .icon {
   -webkit-font-smoothing: antialiased;
 }
 
-
 .icon2x { font-size: 2em; }
 .icon3x { font-size: 3em; }
-
 
 /* style exemples */
 .gradient {
