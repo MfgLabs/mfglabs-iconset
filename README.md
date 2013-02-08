@@ -44,7 +44,7 @@ Create bevel and emboss is easy by using custom sub class
                 
 ##Licenses
 All icons are distributed under
-[CC BY-SA](http://creativecommons.org/licenses/by/3.0/deed.fr) licence.
+[CC BY-SA](http://creativecommons.org/licenses/by/3.0/deed.en) licence.
 
 Font is distributed under
 [SIL](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL) licence.
