@@ -202,11 +202,12 @@ header i{ color: #ffffff; }
 }
 
 .second_container .buttons {
-  padding-left: 114px;
+  padding-left: 130px;
+  padding-top: 25px;
 }
 
-.second_container .buttonsmall {
-  width: 150px;
+.second_container .buttonbig {
+  width: 225px;
 }
 
 
