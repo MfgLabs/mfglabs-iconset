@@ -201,6 +201,15 @@ header i{ color: #ffffff; }
     display: block;
 }
 
+.second_container .buttons {
+  padding-left: 114px;
+}
+
+.second_container .buttonsmall {
+  width: 150px;
+}
+
+
 .floatspecial {
     float: left;
     display: inline-block;
@@ -215,6 +224,10 @@ header i{ color: #ffffff; }
     float: left;
     display: inline-block;
     margin-right: 1%;
+}
+
+.second_container .buttons i {
+ margin-right: 10px;
 }
 
 .thirdcontainer {
