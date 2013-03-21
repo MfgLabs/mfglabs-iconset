@@ -196,8 +196,8 @@ i, .icon {
 .icon-attachment:before           { content: "\f06a"; }
 .icon-check:before                { content: "\2713"; }
 .icon-cross_mark:before           { content: "\274C"; }
-.icon-cancel_circle:before        { content: "\f06d"; }
-.icon-check_circle:before         { content: "\F06E"; }
+.icon-cancel_circle:before        { content: "\F06E"; }
+.icon-check_circle:before         { content: "\f06d"; }
 .icon-magnifying:before           { content: "\F50D"; }
 
 .icon-inbox:before                { content: "\f070"; }
