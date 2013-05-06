@@ -176,7 +176,7 @@ i, .icon {
 .icon-git_circle_alt:before       { content: "\f053"; }
 .icon-git_circle:before           { content: "\f054"; }
 .icon-git:before                  { content: "\f055"; }
-.icon-octopus:before              { content: "\f056"; }
+.icon-github-circled-alt2:before  { content: '\f056'; }
 .icon-twitter_circle:before       { content: "\f057"; }
 .icon-twitter:before              { content: "\f058"; }
 .icon-google_plus_circle:before   { content: "\f059"; }
