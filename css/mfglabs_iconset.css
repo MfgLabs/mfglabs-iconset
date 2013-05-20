@@ -235,3 +235,11 @@ i, .icon {
 .icon-soundcloud:before           { content: "\f089"; }
 .icon-soundcloud_circle:before    { content: "\f08A"; }
 .icon-anchor:before               { content: "\2693"; }
+
+.icon-female_sign:before          { content: "\2640"; }
+.icon-male_sign:before            { content: "\2642"; }
+.icon-joystick:before             { content: "\F514"; }
+.icon-high_voltage:before         { content: "\26A1"; }
+.icon-fire:before                 { content: "\F525"; }
+.icon-newspaper:before            { content: "\F4F0"; }
+.icon-chart:before                { content: "\F526"; }
