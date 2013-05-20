@@ -2,7 +2,6 @@
     
     -------------------------------------------------------
     
-
     License
     -------------------------------------------------------
     • The MFG Labs iconset font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
@@ -16,6 +15,8 @@
     -------------------------------------------------------
     Email: martin.charpentier@mfglabs.com
     Twitter: http://twitter.com/mfg_labs
+    
+
     */
 @font-face {
     font-family: 'mfg_labs_iconsetregular';
@@ -37,8 +38,11 @@ i, .icon {
   -webkit-font-smoothing: antialiased;
 }
 
+
 .icon2x { font-size: 2em; }
 .icon3x { font-size: 3em; }
+
+
 
 /* style exemples */
 .gradient {
@@ -172,7 +176,7 @@ i, .icon {
 .icon-git_circle_alt:before       { content: "\f053"; }
 .icon-git_circle:before           { content: "\f054"; }
 .icon-git:before                  { content: "\f055"; }
-.icon-github-circled-alt2:before  { content: '\f056'; }
+.icon-octopus:before              { content: "\f056"; }
 .icon-twitter_circle:before       { content: "\f057"; }
 .icon-twitter:before              { content: "\f058"; }
 .icon-google_plus_circle:before   { content: "\f059"; }
@@ -196,8 +200,8 @@ i, .icon {
 .icon-attachment:before           { content: "\f06a"; }
 .icon-check:before                { content: "\2713"; }
 .icon-cross_mark:before           { content: "\274C"; }
-.icon-cancel_circle:before        { content: "\F06E"; }
-.icon-check_circle:before         { content: "\f06d"; }
+.icon-cancel_circle:before        { content: "\f06d"; }
+.icon-check_circle:before         { content: "\F06E"; }
 .icon-magnifying:before           { content: "\F50D"; }
 
 .icon-inbox:before                { content: "\f070"; }
@@ -231,3 +235,11 @@ i, .icon {
 .icon-soundcloud:before           { content: "\f089"; }
 .icon-soundcloud_circle:before    { content: "\f08A"; }
 .icon-anchor:before               { content: "\2693"; }
+
+.icon-female_sign:before          { content: "\2640"; }
+.icon-male_sign:before            { content: "\2642"; }
+.icon-joystick:before             { content: "\F514"; }
+.icon-high_voltage:before         { content: "\26A1"; }
+.icon-fire:before                 { content: "\F525"; }
+.icon-newspaper:before            { content: "\F4F0"; }
+.icon-chart:before                { content: "\F526"; }
