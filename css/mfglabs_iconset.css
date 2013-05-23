@@ -244,3 +244,6 @@ i, .icon {
 .icon-newspaper:before            { content: "\F4F0"; }
 .icon-chart:before                { content: "\F526"; }
 .icon-spread:before               { content: "\F527"; }
+
+.icon-spinner_1:before            { content: "\F528"; }
+.icon-spinner_2:before            { content: "\F529"; }
