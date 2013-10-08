@@ -247,3 +247,6 @@ i, .icon {
 
 .icon-spinner_1:before            { content: "\F528"; }
 .icon-spinner_2:before            { content: "\F529"; }
+
+.icon-chart_alt:before            { content: "\F530"; }
+.icon-label:before                { content: "\F531"; }

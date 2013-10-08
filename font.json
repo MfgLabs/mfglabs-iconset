@@ -148,8 +148,10 @@
 		"icon-fire",
 		"icon-newspaper",
 		"icon-chart",
+		"icon-chart_alt",
 		"icon-spread",
 		"icon-spinner_1",
-		"icon-spinner_2"
+		"icon-spinner_2",
+		"icon-label"
 	]
 }
