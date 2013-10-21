@@ -83,6 +83,7 @@ i, .icon {
 .icon-cloud:before                { content: "\2601"; }
 .icon-at:before                   { content: "\0040"; }
 .icon-plus:before                 { content: "\002B"; }
+.icon-minus:before                { content: "\2212"; }
 
 .icon-arrow_up:before             { content: "\2191"; }
 .icon-arrow_down:before           { content: "\2193"; }
