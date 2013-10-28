@@ -187,6 +187,8 @@ i, .icon {
 .icon-instagram:before            { content: "\f05d"; }
 .icon-instagram_circle:before     { content: "\f05e"; }
 .icon-mfg_icon:before             { content: "\f05f"; }
+.icon-xing:before                 { content: "\F532"; }
+.icon-xing_circle:before          { content: "\F533"; }
 
 .icon-mfg_icon_circle:before      { content: "\f060"; }
 .icon-user:before                 { content: "\f061"; }
