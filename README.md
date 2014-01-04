@@ -32,7 +32,7 @@ Create bevel and emboss is easy by using custom sub class
 ###Add the subclass icon2x oir icon3x
 
 
-`< class="icon-cloud icon3x" aria-hidden="true"></i>`
+`<i class="icon-cloud icon3x" aria-hidden="true"></i>`
         
 ###Customise your css directly in mfglabs_iconset.css
 
