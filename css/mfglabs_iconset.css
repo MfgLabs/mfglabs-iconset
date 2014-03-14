@@ -253,3 +253,30 @@ i, .icon {
 
 .icon-chart_alt:before            { content: "\F530"; }
 .icon-label:before                { content: "\F531"; }
+
+.icon-brush:before                { content: "\E000"; }
+.icon-refresh:before              { content: "\E001"; }
+
+.icon-node:before                 { content: "\E002"; }
+.icon-node_2:before               { content: "\E003"; }
+.icon-node_3:before               { content: "\E004"; }
+.icon-link_2_nodes:before         { content: "\E005"; }
+.icon-link_3_nodes:before         { content: "\E006"; }
+.icon-link_loop_nodes:before      { content: "\E007"; }
+.icon-node_size:before            { content: "\E008"; }
+.icon-node_color:before           { content: "\E009"; }
+.icon-layout_directed:before      { content: "\E010"; }
+.icon-layout_hierarchical:before  { content: "\E011"; }
+.icon-layout_radial:before        { content: "\E012"; }
+.icon-node_link_direction:before  { content: "\E013"; }
+.icon-node_link_short_path:before { content: "\E014"; }
+.icon-node_cluster:before         { content: "\E015"; }
+.icon-display_graph:before        { content: "\E016"; }
+.icon-node_link_weight:before     { content: "\E017"; }
+.icon-more_node_links:before      { content: "\E018"; }
+.icon-node_shape:before           { content: "\E00A"; }
+.icon-node_icon:before            { content: "\E00B"; }
+.icon-node_text:before            { content: "\E00C"; }
+.icon-node_link_text:before       { content: "\E00D"; }
+.icon-node_link_color:before      { content: "\E00E"; }
+.icon-node_link_shape:before      { content: "\E00F"; }
