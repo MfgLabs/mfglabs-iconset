@@ -266,8 +266,8 @@ i, .icon {
 .icon-node_size:before            { content: "\E008"; }
 .icon-node_color:before           { content: "\E009"; }
 .icon-layout_directed:before      { content: "\E010"; }
-.icon-layout_hierarchical:before  { content: "\E011"; }
-.icon-layout_radial:before        { content: "\E012"; }
+.icon-layout_radial:before       { content: "\E011"; }
+.icon-layout_hierarchical:before  { content: "\E012"; }
 .icon-node_link_direction:before  { content: "\E013"; }
 .icon-node_link_short_path:before { content: "\E014"; }
 .icon-node_cluster:before         { content: "\E015"; }
