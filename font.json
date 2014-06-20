@@ -180,6 +180,10 @@
 		"icon-node_text",
 		"icon-node_link_text",
 		"icon-node_link_color",
-		"icon-node_link_shape"
+		"icon-node_link_shape",
+		"icon-credit_card",
+		"icon-disconnect",
+		"icon-graph",
+		"icon-new_user"
 	]
 }
