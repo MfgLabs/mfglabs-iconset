@@ -29,7 +29,7 @@ Size subclass
 Create bevel and emboss is easy by using custom sub class
 
   
-###Add the subclass icon2x oir icon3x
+###Add the subclass icon2x or icon3x
 
 
 `<i class="icon-cloud icon3x" aria-hidden="true"></i>`
