@@ -1,0 +1,7 @@
+{
+  "name": "mfglabs-iconset",
+  "homepage": "https://github.com/MfgLabs/mfglabs-iconset",
+  "description": "Awesome web font icon by MFG Labs",
+  "main": "css/mfglabs_iconset.css",
+  "license": "CC BY-SA"
+}
